@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7ddec">
+<meta name="description" content="Un pequeño recordatorio para alguien increíble: no estás a solas y tienes a tu fan número uno.">
+<title>Tu fan número 1 💗</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Pacifico&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{min-height:100vh;font-family:'Poppins',sans-serif;background:linear-gradient(135deg,#ffe0ec,#e8dfff,#d9efff);display:flex;justify-content:center;align-items:center;padding:30px 15px;overflow-x:hidden;color:#59445e}
+.glow{position:fixed;width:250px;height:250px;border-radius:50%;filter:blur(70px);opacity:.5;z-index:0;animation:glowMove 8s ease-in-out infinite alternate;pointer-events:none}
+.glow.one{background:#ff9dc5;top:5%;left:5%}.glow.two{background:#b5a5ff;bottom:5%;right:5%;animation-delay:2s}
+@keyframes glowMove{from{transform:translate(0,0) scale(1)}to{transform:translate(35px,-25px) scale(1.2)}}
+.card{width:100%;max-width:650px;background:rgba(255,255,255,.82);backdrop-filter:blur(15px);border:1px solid rgba(255,255,255,.9);border-radius:30px;padding:45px 35px;text-align:center;box-shadow:0 20px 60px rgba(131,90,142,.16);animation:appear 1.2s ease both;position:relative;z-index:2}
+@keyframes appear{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:translateY(0)}}
+.top-heart{font-size:52px;display:inline-block;animation:heartbeat 1.8s infinite;margin-bottom:12px}
+@keyframes heartbeat{0%,100%{transform:scale(1)}15%{transform:scale(1.15)}30%{transform:scale(1)}45%{transform:scale(1.1)}}
+.small-title{text-transform:uppercase;letter-spacing:4px;font-size:11px;color:#b77da7;font-weight:600;margin-bottom:15px}
+h1{font-family:'Pacifico',cursive;font-weight:400;font-size:clamp(30px,7vw,47px);line-height:1.4;color:#bd6998;margin-bottom:20px}
+.subtitle{font-size:15px;line-height:1.9;color:#78647e;margin-bottom:28px}
+.divider{width:75px;height:3px;margin:25px auto;border-radius:5px;background:linear-gradient(to right,#ffafd0,#bba7ff)}
+.letter{background:rgba(255,239,247,.8);border-radius:20px;padding:25px;text-align:left;line-height:2;font-size:14px;color:#715a75;border-left:4px solid #e9a7cd}
+.letter p{margin-bottom:15px}.letter p:last-child{margin-bottom:0}
+.highlight{color:#bd6195;font-weight:600}
+.fan-box{margin-top:25px;padding:22px 15px;background:linear-gradient(135deg,#fce0ee,#e9e2ff);border-radius:20px}
+.crown{font-size:35px}.fan-box h2{font-size:19px;color:#a45f96;margin:8px 0}.fan-box p{font-size:13px;line-height:1.8}
+.magic-button{border:none;background:linear-gradient(135deg,#e998c2,#a99bea);color:white;padding:15px 25px;margin-top:28px;border-radius:50px;font-family:inherit;font-size:14px;font-weight:600;cursor:pointer;box-shadow:0 8px 20px rgba(181,126,190,.3);transition:transform .3s,box-shadow .3s}
+.magic-button:hover{transform:translateY(-4px);box-shadow:0 12px 25px rgba(181,126,190,.4)}
+#message{display:none;margin-top:22px;padding:20px;background:#fff4fa;border-radius:18px;color:#a25e90;font-size:15px;line-height:1.9;animation:appear .7s ease}
+.signature{margin-top:30px;font-family:'Pacifico',cursive;font-size:23px;color:#bd6998}
+.signature small{display:block;font-family:'Poppins',sans-serif;font-size:11px;margin-top:10px;color:#9b84a0}
+.floating{position:fixed;bottom:-50px;pointer-events:none;z-index:1;animation:floatUp linear forwards;opacity:0}
+@keyframes floatUp{0%{transform:translateY(0) rotate(0);opacity:0}10%{opacity:.8}90%{opacity:.7}100%{transform:translateY(-115vh) rotate(35deg);opacity:0}}
+.footer{font-size:11px;color:#a48eaa;margin-top:28px}
+@media(max-width:480px){.card{padding:35px 20px;border-radius:25px}.letter{padding:20px;font-size:13px}.subtitle{font-size:14px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="glow one"></div><div class="glow two"></div>
+<main class="card">
+  <div class="top-heart">💗</div>
+  <div class="small-title">Un pequeño recordatorio para ti</div>
+  <h1>Hey, personita increíble...</h1>
+  <p class="subtitle">Sé que quizá hoy las cosas no sean tan fáciles, así que hice este pequeño rincón para recordarte algo que nunca deberías olvidar. ✨</p>
+  <div class="divider"></div>
+  <section class="letter">
+    <p>No sé exactamente todo lo que estás sintiendo en este momento, pero quiero que sepas que <span class="highlight">no tienes que poder con todo siempre.</span></p>
+    <p>Está bien tener días difíciles, sentirte cansado, necesitar un descanso o simplemente no tener ganas de nada. No tienes que fingir que todo está bien. Date permiso de respirar, ir despacito y cuidar de ti.</p>
+    <p>Ojalá pudieras verte por un momento desde mis ojos, porque quizá entenderías lo mucho que vales. Hay cosas increíbles en ti que ni siquiera los días más grises pueden borrar.</p>
+    <p>No tienes que demostrarle nada a nadie para merecer cosas bonitas. <span class="highlight">Ya eres alguien valioso tal y como eres.</span> Y aunque hoy no puedas ver todo lo bueno que hay en ti, eso no significa que haya dejado de existir.</p>
+    <p>Ve a tu ritmo. Celebra tus pequeños avances. Descansa cuando lo necesites y recuerda que pedir ayuda también es una forma de ser valiente.</p>
+  </section>
+  <div class="fan-box">
+    <div class="crown">👑</div><h2>¿Y sabes algo más?</h2>
+    <p>Pase lo que pase, tienes a alguien que cree en ti, que se alegra por tus logros y que desea verte bien. Alguien que está orgulloso de ti incluso cuando tú mismo no lo estás.</p>
+    <p style="margin-top:12px"><strong>Ese alguien soy yo.</strong> 💖</p>
+  </div>
+  <button class="magic-button" id="magicButton" type="button" aria-expanded="false" aria-controls="message">💌 Abre esto cuando lo necesites</button>
+  <div id="message" role="status">
+    🌷 Respira un poquito. No necesitas resolver toda tu vida hoy. Un paso pequeño también cuenta, y descansar también cuenta. Mereces paciencia, cariño y tranquilidad.
+    <br><br>
+    Y por si hoy nadie te lo ha dicho: <strong>me alegra que existas y me encanta poder echarte porras. ¡Tú puedes, a tu propio ritmo! 💗</strong>
+    <br><br>
+    ⭐ Atentamente: tu fan número 1, hoy, mañana y cada vez que necesites que alguien te recuerde lo increíble que eres.
+  </div>
+  <div class="signature">Con muchísimo cariño 💕<small>Firmado: tu fan número 1 oficial</small></div>
+  <div class="footer">Hecho especialmente para recordarte que importas. ♡</div>
+</main>
+<script>
+const message=document.getElementById('message');
+const button=document.getElementById('magicButton');
+button.addEventListener('click',()=>{
+  const opening=message.style.display!=='block';
+  message.style.display=opening?'block':'none';
+  button.setAttribute('aria-expanded',String(opening));
+  button.textContent=opening?'💗 Guarda este mensajito':'💌 Abre esto cuando lo necesites';
+  if(opening) launchHearts();
+});
+function launchHearts(){
+  const symbols=['💗','💕','✨','💖','🌸','⭐'];
+  for(let i=0;i<18;i++){
+    const item=document.createElement('div');
+    item.className='floating';
+    item.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+    item.style.left=Math.random()*100+'vw';
+    item.style.fontSize=(16+Math.random()*20)+'px';
+    item.style.animationDuration=(4+Math.random()*4)+'s';
+    item.style.animationDelay=(Math.random()*1.5)+'s';
+    document.body.appendChild(item);
+    setTimeout(()=>item.remove(),10000);
+  }
+}
+const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(!reduceMotion){
+  setInterval(()=>{
+    const item=document.createElement('div');
+    const symbols=['♡','✦','✨','💗'];
+    item.className='floating';
+    item.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+    item.style.left=Math.random()*100+'vw';
+    item.style.fontSize=(12+Math.random()*16)+'px';
+    item.style.animationDuration=(8+Math.random()*6)+'s';
+    document.body.appendChild(item);
+    setTimeout(()=>item.remove(),15000);
+  },1100);
+}
+</script>
+</body>
+</html>
